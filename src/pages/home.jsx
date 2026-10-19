@@ -114,7 +114,7 @@ const Home = () => {
         <div className="grid md:grid-cols-2 gap-6 ">
           {gridData.map((gd)=>(
             <div key={gd.id} className="group relative rounded-2xl p-3 flex flex-col justify-between">
-              <div className="w-full h-88 overflow-hidden bg-gray-100">
+              <div className="w-full h-88 overflow-hidden bg-gray-100 rounded-lg">
                 <img src={gd.Image} alt={gd.label} className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"/>
               </div>
               <p className="text-base px-6 pb-6 pt-2 font-mono uppercase font-semibold">{gd.deskripsi}</p>

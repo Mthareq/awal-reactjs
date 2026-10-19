@@ -101,7 +101,7 @@ function Service (){
                     {dataService.map((sD)=>(
                         <div key={sD.id} className="group grid grid-cols-1 md:grid-cols-12 gap-6 py-12 border-b border-gray-300 transition-colors duration-300 hover:bg-gray-50/50">
                             <div className="md:col-span-1">
-                                <span className="font-mono text-xs text-gray-700 tracking-wider">
+                                <span className="font-mono text-lg text-gray-700 tracking-wider">
                                     {sD.id}
                                 </span>
                             </div>

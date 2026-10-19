@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <header className="fixed top-6 left-0 right-0 z-50 flex justify-center mx-2">
-        <nav className="w-full max-w-7xl px-6 py-3 bg-white/80 backdrop-blur-md border border-gray-200 shadow-lg rounded-3xl md:rounded-full transition-all duration-300">
+        <nav className="w-full max-w-7xl px-6 py-3 bg-white/80 backdrop-blur-md border border-gray-200 shadow-sm rounded-3xl md:rounded-full transition-all duration-300">
             <div className="flex items-center justify-between w-full">
 
                 <div className={isOpen ? "hidden md:flex" : "flex"}>
